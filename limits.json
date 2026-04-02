@@ -1,9 +1,9 @@
 {
-  "updated_at": "2026-04-02 14:27 UTC",
+  "updated_at": "2026-04-02 15:11 UTC",
   "openrouter": {
     "total_credits": 6,
-    "total_usage": 1.8178,
-    "balance": 4.18
+    "total_usage": 1.9616,
+    "balance": 4.04
   },
   "claude": {
     "model": "anthropic/claude-sonnet-4-6",
