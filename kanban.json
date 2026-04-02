@@ -1,8 +1,51 @@
 {
-  "columns": [
-    "todo",
-    "inprogress",
-    "done"
-  ],
-  "tasks": []
+  "columns": ["todo", "inprogress", "done"],
+  "tasks": [
+    {
+      "id": "task-001",
+      "title": "Контент-план блога апрель (Telegram + LinkedIn)",
+      "column": "done",
+      "created": "2026-04-02",
+      "completed": "2026-04-02",
+      "notes": "Projects/blog-content-plan.md — 12 идей RU + 5 EN постов"
+    },
+    {
+      "id": "task-002",
+      "title": "Стратегия привлечения первых Amazon PPC клиентов",
+      "column": "done",
+      "created": "2026-04-02",
+      "completed": "2026-04-02",
+      "notes": "Projects/amazon-ppc-client-acquisition.md — LinkedIn, Reddit, Facebook, Upwork"
+    },
+    {
+      "id": "task-003",
+      "title": "Telegram-пост #1: 3 клиента → цель 10 (личный)",
+      "column": "done",
+      "created": "2026-04-02",
+      "completed": "2026-04-02",
+      "notes": "Projects/ready-posts/telegram-post-01-personal.md — готов к публикации 06.04"
+    },
+    {
+      "id": "task-004",
+      "title": "LinkedIn-пост #1: 5 Amazon PPC ошибок (EN)",
+      "column": "done",
+      "created": "2026-04-02",
+      "completed": "2026-04-02",
+      "notes": "Projects/ready-posts/linkedin-post-01-ppc-mistakes.md — готов к публикации 07.04"
+    },
+    {
+      "id": "task-005",
+      "title": "Оптимизировать LinkedIn профиль под Amazon PPC Expert (EN)",
+      "column": "todo",
+      "created": "2026-04-02",
+      "notes": "Требует участия Сергея: заголовок, about, experience"
+    },
+    {
+      "id": "task-006",
+      "title": "Первый пост в Telegram опубликовать",
+      "column": "todo",
+      "created": "2026-04-02",
+      "notes": "Сергей публикует сам, пост готов"
+    }
+  ]
 }
