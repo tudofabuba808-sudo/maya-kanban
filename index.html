@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Maya Kanban</title>
+<title>Maya</title>
 <script src="https://telegram.org/js/telegram-web-app.js"></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -13,17 +13,40 @@
     background: var(--tg-theme-bg-color, #1a1a2e);
     color: var(--tg-theme-text-color, #eee);
     min-height: 100vh;
-    padding: 12px;
   }
 
-  h1 {
-    font-size: 18px;
-    font-weight: 700;
-    margin-bottom: 12px;
-    text-align: center;
-    opacity: 0.9;
+  /* NAV */
+  .nav {
+    display: flex;
+    gap: 8px;
+    padding: 12px 12px 0;
   }
 
+  .nav-btn {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    background: var(--tg-theme-secondary-bg-color, #16213e);
+    color: var(--tg-theme-text-color, #eee);
+    opacity: 0.5;
+    transition: opacity 0.15s, background 0.15s;
+  }
+
+  .nav-btn.active {
+    opacity: 1;
+    background: var(--tg-theme-button-color, #3390ec);
+    color: var(--tg-theme-button-text-color, #fff);
+  }
+
+  /* PAGES */
+  .page { display: none; padding: 12px; }
+  .page.active { display: block; }
+
+  /* KANBAN */
   .board {
     display: flex;
     gap: 10px;
@@ -32,19 +55,19 @@
   }
 
   .column {
-    flex: 0 0 260px;
+    flex: 0 0 250px;
     background: var(--tg-theme-secondary-bg-color, #16213e);
     border-radius: 14px;
     padding: 12px;
-    min-height: 200px;
+    min-height: 180px;
   }
 
   .column-title {
-    font-size: 13px;
+    font-size: 12px;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    opacity: 0.6;
+    opacity: 0.55;
     margin-bottom: 10px;
     display: flex;
     align-items: center;
@@ -59,61 +82,30 @@
   }
 
   .task {
-    background: var(--tg-theme-bg-color, #0f3460);
+    background: rgba(255,255,255,0.05);
     border-radius: 10px;
     padding: 10px 12px;
     margin-bottom: 8px;
-    cursor: pointer;
     border-left: 3px solid transparent;
-    transition: transform 0.15s, opacity 0.15s;
-    position: relative;
   }
-
-  .task:active { transform: scale(0.97); }
 
   .task.priority-high { border-left-color: #ff6b6b; }
   .task.priority-med  { border-left-color: #ffd93d; }
   .task.priority-low  { border-left-color: #6bcb77; }
 
-  .task-title {
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.3;
-    margin-bottom: 4px;
-  }
-
-  .task-desc {
-    font-size: 12px;
-    opacity: 0.6;
-    line-height: 1.4;
-  }
+  .task-title { font-size: 13px; font-weight: 600; line-height: 1.3; margin-bottom: 4px; }
+  .task-desc  { font-size: 11px; opacity: 0.55; line-height: 1.4; }
 
   .task-meta {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin-top: 6px;
   }
 
-  .task-tag {
-    font-size: 10px;
-    background: rgba(255,255,255,0.1);
-    border-radius: 6px;
-    padding: 2px 7px;
-    opacity: 0.8;
-  }
+  .task-tag  { font-size: 10px; background: rgba(255,255,255,0.1); border-radius: 6px; padding: 2px 6px; }
+  .task-date { font-size: 10px; opacity: 0.35; }
 
-  .task-date {
-    font-size: 10px;
-    opacity: 0.4;
-  }
-
-  .task-actions {
-    display: flex;
-    gap: 4px;
-    margin-top: 8px;
-    flex-wrap: wrap;
-  }
+  .task-actions { display: flex; gap: 4px; margin-top: 8px; flex-wrap: wrap; }
 
   .btn-move {
     font-size: 11px;
@@ -123,158 +115,279 @@
     background: rgba(255,255,255,0.1);
     color: inherit;
     cursor: pointer;
-    transition: background 0.15s;
   }
-  .btn-move:hover { background: rgba(255,255,255,0.2); }
   .btn-delete { color: #ff6b6b; }
 
-  .empty {
-    text-align: center;
-    opacity: 0.3;
-    font-size: 13px;
-    padding: 20px 0;
+  .empty { text-align: center; opacity: 0.25; font-size: 12px; padding: 16px 0; }
+
+  /* LIMITS */
+  .limits-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
   }
 
-  .loading {
-    text-align: center;
-    padding: 40px;
-    opacity: 0.5;
+  .limits-card {
+    background: var(--tg-theme-secondary-bg-color, #16213e);
+    border-radius: 14px;
+    padding: 14px 16px;
+  }
+
+  .limits-card h3 {
+    font-size: 13px;
+    font-weight: 700;
+    opacity: 0.55;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 12px;
+  }
+
+  .limit-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 13px;
+  }
+
+  .limit-label { opacity: 0.7; }
+
+  .limit-value {
+    font-weight: 700;
     font-size: 14px;
   }
 
-  .error-msg {
-    text-align: center;
-    color: #ff6b6b;
-    padding: 20px;
-    font-size: 13px;
+  .limit-value.ok   { color: #6bcb77; }
+  .limit-value.warn { color: #ffd93d; }
+  .limit-value.bad  { color: #ff6b6b; }
+
+  .bar-wrap {
+    background: rgba(255,255,255,0.1);
+    border-radius: 6px;
+    height: 6px;
+    margin-top: 4px;
+    margin-bottom: 10px;
+    overflow: hidden;
   }
 
-  .last-updated {
-    text-align: center;
-    font-size: 11px;
-    opacity: 0.3;
-    margin-top: 12px;
+  .bar {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.5s;
+  }
+
+  .bar.ok   { background: #6bcb77; }
+  .bar.warn { background: #ffd93d; }
+  .bar.bad  { background: #ff6b6b; }
+
+  /* SHARED */
+  .loading { text-align: center; padding: 40px; opacity: 0.4; font-size: 13px; }
+  .error-msg { text-align: center; color: #ff6b6b; padding: 20px; font-size: 12px; }
+
+  .meta-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 4px;
   }
 
   .refresh-btn {
-    display: block;
-    margin: 8px auto 0;
-    font-size: 12px;
-    padding: 5px 14px;
-    border: 1px solid rgba(255,255,255,0.2);
+    font-size: 11px;
+    padding: 4px 12px;
+    border: 1px solid rgba(255,255,255,0.15);
     border-radius: 8px;
     background: transparent;
     color: inherit;
     cursor: pointer;
+    opacity: 0.6;
   }
+
+  .updated-at { font-size: 10px; opacity: 0.3; }
 </style>
 </head>
 <body>
 
-<h1>🌿 Maya Kanban</h1>
-<div id="app"><div class="loading">Загрузка...</div></div>
+<div class="nav">
+  <button class="nav-btn active" onclick="switchPage('kanban')">📋 Канбан</button>
+  <button class="nav-btn" onclick="switchPage('limits')">📊 Лимиты</button>
+</div>
+
+<!-- KANBAN PAGE -->
+<div id="page-kanban" class="page active">
+  <div id="kanban-app"><div class="loading">Загрузка...</div></div>
+</div>
+
+<!-- LIMITS PAGE -->
+<div id="page-limits" class="page">
+  <div id="limits-app"><div class="loading">Загрузка...</div></div>
+</div>
 
 <script>
 const OWNER = 'tudofabuba808-sudo';
 const REPO  = 'maya-kanban';
-const FILE  = 'kanban.json';
-const API   = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${FILE}`;
 
 const COLS = {
-  todo:       { label: '📋 К выполнению', icon: '📋' },
-  inprogress: { label: '⚡ В работе',      icon: '⚡' },
-  done:       { label: '✅ Готово',         icon: '✅' },
+  todo:       { label: 'К выполнению', icon: '📋' },
+  inprogress: { label: 'В работе',     icon: '⚡' },
+  done:       { label: 'Готово',        icon: '✅' },
 };
 
-let data = { columns: ['todo','inprogress','done'], tasks: [] };
-let sha = null;
+let kanbanData = { columns: ['todo','inprogress','done'], tasks: [] };
 
-async function load() {
+// --- NAV ---
+function switchPage(name) {
+  document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+  document.querySelectorAll('.nav-btn').forEach(b => b.classList.remove('active'));
+  document.getElementById('page-' + name).classList.add('active');
+  event.target.classList.add('active');
+  if (name === 'limits') loadLimits();
+}
+
+// --- GITHUB FETCH ---
+async function ghFetch(file) {
+  const API = `https://api.github.com/repos/${OWNER}/${REPO}/contents/${file}?t=${Date.now()}`;
+  const r = await fetch(API, { headers: { 'Accept': 'application/vnd.github.v3+json' } });
+  if (!r.ok) throw new Error('HTTP ' + r.status);
+  const meta = await r.json();
+  return JSON.parse(atob(meta.content.replace(/\n/g,'')));
+}
+
+// --- KANBAN ---
+async function loadKanban() {
   try {
-    // GitHub Contents API — работает в Telegram webview
-    const r = await fetch(API + '?t=' + Date.now(), {
-      headers: { 'Accept': 'application/vnd.github.v3+json' }
-    });
-    if (!r.ok) throw new Error('HTTP ' + r.status);
-    const meta = await r.json();
-    const decoded = atob(meta.content.replace(/\n/g,''));
-    data = JSON.parse(decoded);
-    render();
+    kanbanData = await ghFetch('kanban.json');
+    renderKanban();
   } catch(e) {
-    // Fallback: jsDelivr CDN
-    try {
-      const r2 = await fetch(`https://cdn.jsdelivr.net/gh/${OWNER}/${REPO}@main/${FILE}?t=${Date.now()}`);
-      if (!r2.ok) throw new Error('cdn ' + r2.status);
-      data = await r2.json();
-      render();
-    } catch(e2) {
-      document.getElementById('app').innerHTML = `<div class="error-msg">Ошибка загрузки 😢<br><small>${e.message} / ${e2.message}</small></div>`;
-    }
+    document.getElementById('kanban-app').innerHTML = `<div class="error-msg">Ошибка: ${e.message}</div>`;
   }
 }
 
-function render() {
-  const app = document.getElementById('app');
+function renderKanban() {
+  const app = document.getElementById('kanban-app');
   let html = '<div class="board">';
-
-  for (const col of data.columns) {
+  for (const col of kanbanData.columns) {
     const cfg = COLS[col] || { label: col, icon: '📌' };
-    const tasks = data.tasks.filter(t => t.column === col);
+    const tasks = kanbanData.tasks.filter(t => t.column === col);
     html += `<div class="column">
-      <div class="column-title">${cfg.icon} ${cfg.label.split(' ').slice(1).join(' ')} <span class="count">${tasks.length}</span></div>`;
-
-    if (tasks.length === 0) {
-      html += `<div class="empty">Пусто</div>`;
-    }
-
+      <div class="column-title">${cfg.icon} ${cfg.label} <span class="count">${tasks.length}</span></div>`;
+    if (!tasks.length) html += `<div class="empty">Пусто</div>`;
     for (const t of tasks) {
-      const pClass = t.priority === 'high' ? 'priority-high' : t.priority === 'low' ? 'priority-low' : 'priority-med';
-      html += `<div class="task ${pClass}" id="task-${t.id}">
+      const p = t.priority === 'high' ? 'priority-high' : t.priority === 'low' ? 'priority-low' : 'priority-med';
+      html += `<div class="task ${p}">
         <div class="task-title">${esc(t.title)}</div>
         ${t.desc ? `<div class="task-desc">${esc(t.desc)}</div>` : ''}
         <div class="task-meta">
           ${t.tag ? `<span class="task-tag">${esc(t.tag)}</span>` : '<span></span>'}
-          <span class="task-date">${t.date || ''}</span>
+          <span class="task-date">${t.date||''}</span>
         </div>
         <div class="task-actions">
-          ${col !== 'todo'       ? `<button class="btn-move" onclick="move('${t.id}','todo')">← К выполн.</button>` : ''}
-          ${col !== 'inprogress' ? `<button class="btn-move" onclick="move('${t.id}','inprogress')">⚡ В работу</button>` : ''}
-          ${col !== 'done'       ? `<button class="btn-move" onclick="move('${t.id}','done')">✅ Готово</button>` : ''}
-          <button class="btn-move btn-delete" onclick="del('${t.id}')">✕</button>
+          ${col!=='todo'       ? `<button class="btn-move" onclick="moveTask('${t.id}','todo')">← К выполн.</button>` : ''}
+          ${col!=='inprogress' ? `<button class="btn-move" onclick="moveTask('${t.id}','inprogress')">⚡ В работу</button>` : ''}
+          ${col!=='done'       ? `<button class="btn-move" onclick="moveTask('${t.id}','done')">✅ Готово</button>` : ''}
+          <button class="btn-move btn-delete" onclick="delTask('${t.id}')">✕</button>
         </div>
       </div>`;
     }
-
     html += '</div>';
   }
-
   html += '</div>';
-  html += `<div class="last-updated">Обновлено: ${new Date().toLocaleTimeString('ru')}</div>`;
-  html += `<button class="refresh-btn" onclick="load()">🔄 Обновить</button>`;
+  html += `<div style="margin-top:8px" class="meta-row">
+    <span class="updated-at">Обновлено: ${new Date().toLocaleTimeString('ru')}</span>
+    <button class="refresh-btn" onclick="loadKanban()">🔄</button>
+  </div>`;
   app.innerHTML = html;
+}
+
+function moveTask(id, col) {
+  const t = kanbanData.tasks.find(x => x.id === id);
+  if (t) { t.column = col; renderKanban(); }
+}
+function delTask(id) {
+  kanbanData.tasks = kanbanData.tasks.filter(x => x.id !== id);
+  renderKanban();
+}
+
+// --- LIMITS ---
+async function loadLimits() {
+  const app = document.getElementById('limits-app');
+  app.innerHTML = '<div class="loading">Загрузка...</div>';
+  try {
+    const d = await ghFetch('limits.json');
+    renderLimits(d);
+  } catch(e) {
+    app.innerHTML = `<div class="error-msg">Ошибка: ${e.message}</div>`;
+  }
+}
+
+function renderLimits(d) {
+  const or = d.openrouter || {};
+  const cl = d.claude || {};
+
+  const balance = or.balance;
+  const balClass = balance === null ? '' : balance > 3 ? 'ok' : balance > 1 ? 'warn' : 'bad';
+  const balPct = balance !== null ? Math.min(100, (balance / (or.total_credits||6)) * 100) : 0;
+
+  const ctxPct = cl.context_used_pct;
+  const ctxClass = ctxPct === null ? '' : ctxPct < 60 ? 'ok' : ctxPct < 85 ? 'warn' : 'bad';
+
+  const fmt = v => v === null || v === undefined ? '—' : v;
+
+  document.getElementById('limits-app').innerHTML = `
+    <div class="limits-grid">
+
+      <div class="limits-card">
+        <h3>🔶 OpenRouter</h3>
+        <div class="limit-row">
+          <span class="limit-label">Баланс</span>
+          <span class="limit-value ${balClass}">${balance !== null ? '$' + balance.toFixed(2) : '—'}</span>
+        </div>
+        ${balance !== null ? `<div class="bar-wrap"><div class="bar ${balClass}" style="width:${balPct}%"></div></div>` : ''}
+        <div class="limit-row">
+          <span class="limit-label">Пополнено</span>
+          <span class="limit-value">${or.total_credits !== null ? '$' + fmt(or.total_credits) : '—'}</span>
+        </div>
+        <div class="limit-row">
+          <span class="limit-label">Потрачено</span>
+          <span class="limit-value">${or.total_usage !== null ? '$' + Number(or.total_usage).toFixed(2) : '—'}</span>
+        </div>
+      </div>
+
+      <div class="limits-card">
+        <h3>🤖 Claude</h3>
+        <div class="limit-row">
+          <span class="limit-label">Контекст</span>
+          <span class="limit-value ${ctxClass}">${ctxPct !== null ? ctxPct + '%' : '—'}</span>
+        </div>
+        ${ctxPct !== null ? `<div class="bar-wrap"><div class="bar ${ctxClass}" style="width:${ctxPct}%"></div></div>` : ''}
+        <div class="limit-row">
+          <span class="limit-label">Модель</span>
+          <span class="limit-value" style="font-size:11px;opacity:0.7">${fmt(cl.model)}</span>
+        </div>
+        <div class="limit-row">
+          <span class="limit-label">Компакций</span>
+          <span class="limit-value">${fmt(cl.compactions)}</span>
+        </div>
+      </div>
+
+      <div style="text-align:center">
+        <div class="updated-at">Данные от: ${d.updated_at || '—'}</div>
+        <div class="updated-at" style="margin-top:4px">Обновляется автоматически</div>
+        <button class="refresh-btn" style="margin-top:8px" onclick="loadLimits()">🔄 Обновить</button>
+      </div>
+    </div>`;
 }
 
 function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
 }
 
-function move(id, col) {
-  const t = data.tasks.find(x => x.id === id);
-  if (t) { t.column = col; render(); }
-}
-
-function del(id) {
-  data.tasks = data.tasks.filter(x => x.id !== id);
-  render();
-}
-
-// Инит Telegram WebApp
+// Инит
 if (window.Telegram?.WebApp) {
   Telegram.WebApp.ready();
   Telegram.WebApp.expand();
 }
 
-load();
+loadKanban();
 </script>
 </body>
 </html>

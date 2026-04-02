@@ -1,0 +1,13 @@
+{
+  "updated_at": "never",
+  "openrouter": {
+    "total_credits": null,
+    "total_usage": null,
+    "balance": null
+  },
+  "claude": {
+    "context_used_pct": null,
+    "model": "anthropic/claude-sonnet-4-6",
+    "compactions": null
+  }
+}
