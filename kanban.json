@@ -4,42 +4,5 @@
     "inprogress",
     "done"
   ],
-  "tasks": [
-    {
-      "id": "t1",
-      "title": "Собрать посты канала @NikolaevMP",
-      "desc": "Проанализировать темы и форматы, выявить что заходило лучше",
-      "column": "inprogress",
-      "priority": "high",
-      "tag": "Блог",
-      "date": "02.04"
-    },
-    {
-      "id": "t2",
-      "title": "Найти 3 идеи для поста в TG/Instagram",
-      "desc": "На основе анализа канала и целей Сергея",
-      "column": "todo",
-      "priority": "high",
-      "tag": "Блог",
-      "date": "02.04"
-    },
-    {
-      "id": "t3",
-      "title": "Ресёрч ниш Amazon PPC",
-      "desc": "Найти перспективные ниши для английских продавцов",
-      "column": "todo",
-      "priority": "med",
-      "tag": "Amazon",
-      "date": "02.04"
-    },
-    {
-      "id": "t4",
-      "title": "Шаблон Facebook рекламы для WB услуг",
-      "desc": "Подготовить структуру объявления для привлечения WB клиентов",
-      "column": "todo",
-      "priority": "med",
-      "tag": "WB",
-      "date": "02.04"
-    }
-  ]
+  "tasks": []
 }
