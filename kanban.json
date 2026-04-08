@@ -1,5 +1,9 @@
 {
-  "columns": ["todo", "inprogress", "done"],
+  "columns": [
+    "todo",
+    "inprogress",
+    "done"
+  ],
   "tasks": [
     {
       "id": "task-001",
@@ -46,6 +50,22 @@
       "column": "todo",
       "created": "2026-04-02",
       "notes": "Сергей публикует сам, пост готов"
+    },
+    {
+      "id": "task-007",
+      "title": "Telegram-пост #3: Почему ДРР растёт, а заказов не больше",
+      "column": "done",
+      "created": "2026-04-08",
+      "completed": "2026-04-08",
+      "notes": "Projects/ready-posts/telegram-post-03-drr-growth.md — экспертный разбор + чек-лист"
+    },
+    {
+      "id": "task-008",
+      "title": "LinkedIn-пост #2: ACoS is vanity, track TACoS",
+      "column": "done",
+      "created": "2026-04-08",
+      "completed": "2026-04-08",
+      "notes": "Projects/ready-posts/linkedin-post-02-tacos-over-acos.md — EN пост для Amazon-аудитории"
     }
   ]
 }
