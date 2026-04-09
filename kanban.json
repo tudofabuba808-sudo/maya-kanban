@@ -66,6 +66,22 @@
       "created": "2026-04-08",
       "completed": "2026-04-08",
       "notes": "Projects/ready-posts/linkedin-post-02-tacos-over-acos.md — EN пост для Amazon-аудитории"
+    },
+    {
+      "id": "task-009",
+      "title": "LinkedIn-пост #3: PPC не чинит слабый listing (EN)",
+      "column": "done",
+      "created": "2026-04-09",
+      "completed": "2026-04-09",
+      "notes": "Projects/ready-posts/linkedin-post-03-proof-over-promises.md — готов экспертный пост для Amazon-аудитории"
+    },
+    {
+      "id": "task-010",
+      "title": "Amazon Lead Sprint Week 1 — шаблон спринта на 7 дней",
+      "column": "done",
+      "created": "2026-04-09",
+      "completed": "2026-04-09",
+      "notes": "Projects/amazon-lead-sprint-week1.md — пошаговый план лидогенерации + шаблон лида"
     }
   ]
 }
