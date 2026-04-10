@@ -82,6 +82,22 @@
       "created": "2026-04-09",
       "completed": "2026-04-09",
       "notes": "Projects/amazon-lead-sprint-week1.md — пошаговый план лидогенерации + шаблон лида"
+    },
+    {
+      "id": "task-011",
+      "title": "LinkedIn пост #4 для Amazon лидогенерации",
+      "column": "done",
+      "created": "2026-04-10",
+      "completed": "2026-04-10",
+      "notes": "Projects/ready-posts/linkedin-post-04-no-data-no-scale.md — EN пост с CTA на mini-audit"
+    },
+    {
+      "id": "task-012",
+      "title": "Telegram пост #4 для WB продавцов",
+      "column": "done",
+      "created": "2026-04-10",
+      "completed": "2026-04-10",
+      "notes": "Projects/ready-posts/telegram-post-04-wb-audit-hook.md — пост про связку конверсия карточки + ДРР"
     }
   ]
 }
