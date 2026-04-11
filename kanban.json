@@ -98,6 +98,22 @@
       "created": "2026-04-10",
       "completed": "2026-04-10",
       "notes": "Projects/ready-posts/telegram-post-04-wb-audit-hook.md — пост про связку конверсия карточки + ДРР"
+    },
+    {
+      "id": "task-013",
+      "title": "Telegram-пост #5: зимовка + рабочий день + системность",
+      "column": "done",
+      "created": "2026-04-11",
+      "completed": "2026-04-11",
+      "notes": "Projects/ready-posts/telegram-post-04-wintering-workday.md — готовый личный пост под 13.04 с CTA на метрики"
+    },
+    {
+      "id": "task-014",
+      "title": "LinkedIn-пост #5: structure before scale (Amazon PPC)",
+      "column": "done",
+      "created": "2026-04-11",
+      "completed": "2026-04-11",
+      "notes": "Projects/ready-posts/linkedin-post-02-structure-before-scale.md — EN пост про структуру кампаний перед ростом бюджета"
     }
   ]
 }
