@@ -114,6 +114,22 @@
       "created": "2026-04-11",
       "completed": "2026-04-11",
       "notes": "Projects/ready-posts/linkedin-post-02-structure-before-scale.md — EN пост про структуру кампаний перед ростом бюджета"
+    },
+    {
+      "id": "task-015",
+      "title": "Telegram-пост #6: акции WB, когда участвовать, а когда нет",
+      "column": "done",
+      "created": "2026-04-12",
+      "completed": "2026-04-12",
+      "notes": "Projects/ready-posts/telegram-post-05-wb-promotions.md — готовый пост про экономику акций и маржу"
+    },
+    {
+      "id": "task-016",
+      "title": "LinkedIn-пост #6: cutting ACoS by fixing structure (EN)",
+      "column": "done",
+      "created": "2026-04-12",
+      "completed": "2026-04-12",
+      "notes": "Projects/ready-posts/linkedin-post-03-acos-case-study.md — EN пост про снижение ACoS через структуру и контроль search terms"
     }
   ]
 }
