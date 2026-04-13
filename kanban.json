@@ -130,6 +130,22 @@
       "created": "2026-04-12",
       "completed": "2026-04-12",
       "notes": "Projects/ready-posts/linkedin-post-03-acos-case-study.md — EN пост про снижение ACoS через структуру и контроль search terms"
+    },
+    {
+      "id": "task-017",
+      "title": "Telegram-пост #7: 3 метрики, которые я смотрю каждое утро по WB",
+      "column": "done",
+      "created": "2026-04-13",
+      "completed": "2026-04-13",
+      "notes": "Projects/ready-posts/telegram-post-06-morning-metrics.md — готовый пост про заказы, ДРР и конверсию как утренний контроль"
+    },
+    {
+      "id": "task-018",
+      "title": "LinkedIn-пост #7: The 3 Amazon PPC metrics I check first",
+      "column": "done",
+      "created": "2026-04-13",
+      "completed": "2026-04-13",
+      "notes": "Projects/ready-posts/linkedin-post-04-three-metrics-that-matter.md — EN пост про spend, efficiency и search term quality"
     }
   ]
 }
