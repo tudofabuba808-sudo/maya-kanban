@@ -146,6 +146,22 @@
       "created": "2026-04-13",
       "completed": "2026-04-13",
       "notes": "Projects/ready-posts/linkedin-post-04-three-metrics-that-matter.md — EN пост про spend, efficiency и search term quality"
+    },
+    {
+      "id": "task-019",
+      "title": "Telegram-пост #8: почему рекламу на WB нельзя оценивать без юнит-экономики",
+      "column": "done",
+      "created": "2026-04-14",
+      "completed": "2026-04-14",
+      "notes": "Projects/ready-posts/telegram-post-07-unit-economics-before-ads.md — готовый пост про связь ДРР и юнит-экономики"
+    },
+    {
+      "id": "task-020",
+      "title": "LinkedIn-пост #8: 5 questions before touching an Amazon PPC account",
+      "column": "done",
+      "created": "2026-04-14",
+      "completed": "2026-04-14",
+      "notes": "Projects/ready-posts/linkedin-post-05-five-question-audit.md — EN пост с pre-audit framework для Amazon PPC"
     }
   ]
 }
