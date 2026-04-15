@@ -162,6 +162,22 @@
       "created": "2026-04-14",
       "completed": "2026-04-14",
       "notes": "Projects/ready-posts/linkedin-post-05-five-question-audit.md — EN пост с pre-audit framework для Amazon PPC"
+    },
+    {
+      "id": "task-021",
+      "title": "Telegram-пост #9: проблема WB часто в цене, а не в рекламе",
+      "column": "done",
+      "created": "2026-04-15",
+      "completed": "2026-04-15",
+      "notes": "Projects/ready-posts/telegram-post-08-wb-price-vs-ads.md — готовый пост про цену, маржу и допустимый ДРР"
+    },
+    {
+      "id": "task-022",
+      "title": "Amazon offer ladder: Mini Audit → Growth Diagnostic → Advisory",
+      "column": "done",
+      "created": "2026-04-15",
+      "completed": "2026-04-15",
+      "notes": "Projects/amazon-offers/amazon-ppc-offer-options-2026-04-15.md — 3 модели оффера, гипотезы по цене и рекомендуемая лестница"
     }
   ]
 }
