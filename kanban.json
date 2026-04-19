@@ -226,6 +226,22 @@
       "created": "2026-04-18",
       "completed": "2026-04-18",
       "notes": "Projects/ready-posts/telegram-post-11-wb-why-sales-dont-grow-from-ads-alone.md — готовый пост про цену, CTR, конверсию и допустимый ДРР"
+    },
+    {
+      "id": "task-029",
+      "title": "WB Facebook lead funnel: mini-diagnostic оффер + структура первой воронки",
+      "column": "done",
+      "created": "2026-04-19",
+      "completed": "2026-04-19",
+      "notes": "Projects/wb-facebook-lead-funnel-2026-04-19.md — ICP, оффер, lead form, ad angles, qualification и метрики теста"
+    },
+    {
+      "id": "task-030",
+      "title": "Amazon discovery call + proposal pack для конверсии лидов в paid diagnostic",
+      "column": "done",
+      "created": "2026-04-19",
+      "completed": "2026-04-19",
+      "notes": "Projects/amazon-offers/amazon-discovery-call-and-proposal-pack-2026-04-19.md — структура созвона, red flags, verbal bridge и skeleton proposal"
     }
   ]
 }
