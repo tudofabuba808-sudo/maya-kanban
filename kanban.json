@@ -242,6 +242,22 @@
       "created": "2026-04-19",
       "completed": "2026-04-19",
       "notes": "Projects/amazon-offers/amazon-discovery-call-and-proposal-pack-2026-04-19.md — структура созвона, red flags, verbal bridge и skeleton proposal"
+    },
+    {
+      "id": "task-031",
+      "title": "WB daily anomalies report: 20.04.2026 по активным клиентам с рисками по ДРР и выкупам",
+      "column": "done",
+      "created": "2026-04-21",
+      "completed": "2026-04-21",
+      "notes": "reports/2026-04-21-wb-anomalies.md — разбор по Котихина, Синюкова, Малько, Романов, Паскаль, Monkfit: заказы, выкупы, аномалии и action points"
+    },
+    {
+      "id": "task-032",
+      "title": "Telegram/Instagram draft: почему на WB есть трафик и корзины, но нет денег",
+      "column": "done",
+      "created": "2026-04-21",
+      "completed": "2026-04-21",
+      "notes": "content/2026-04-21-wb-post-draft.md — готовый черновик поста на основе живых данных из кабинетов"
     }
   ]
 }
