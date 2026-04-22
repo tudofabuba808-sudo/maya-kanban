@@ -258,6 +258,22 @@
       "created": "2026-04-21",
       "completed": "2026-04-21",
       "notes": "content/2026-04-21-wb-post-draft.md — готовый черновик поста на основе живых данных из кабинетов"
+    },
+    {
+      "id": "task-033",
+      "title": "WB daily anomalies report: 21.04.2026 по активным клиентам с рисками по ДРР и невыкупам",
+      "column": "done",
+      "created": "2026-04-22",
+      "completed": "2026-04-22",
+      "notes": "/home/serg/.openclaw/workspace/reports/2026-04-22-wb-anomalies.md"
+    },
+    {
+      "id": "task-034",
+      "title": "Amazon first 5 clients offer pack: diagnostic offer, ICP и апселл-логика",
+      "column": "done",
+      "created": "2026-04-22",
+      "completed": "2026-04-22",
+      "notes": "/tmp/obsidian-vault-index/Projects/amazon-offers/amazon-first-5-clients-offer-pack-2026-04-22.md"
     }
   ]
 }
