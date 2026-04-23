@@ -1,12 +1,13 @@
 {
-  "updated_at": "2026-04-23 12:00 UTC",
+  "updated_at": "2026-04-23 14:21 UTC",
   "openrouter": {
     "total_credits": 6,
     "total_usage": 2.0306,
     "balance": 3.97
   },
-  "claude": {
-    "model": "anthropic/claude-sonnet-4-6",
+  "codex": {
+    "model": "openai-codex/gpt-5.4",
+    "provider": "Codex",
     "context_used_pct": null,
     "compactions": null
   }
