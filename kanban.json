@@ -342,6 +342,26 @@
       "notes": "obsidian-vault:Projects/amazon-offers/amazon-first-5-clients-offer-pack-2026-04-22.md",
       "type": "offer",
       "area": "amazon"
+    },
+    {
+      "id": "task-035",
+      "title": "LinkedIn-пост #6: Diagnose waste before optimizing bids (Amazon EN)",
+      "column": "done",
+      "created": "2026-04-23",
+      "completed": "2026-04-23",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-23/linkedin-post-06-amazon-diagnose-before-optimization.md — готовый EN пост с CTA на audit",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-036",
+      "title": "WB Facebook Mini-Diagnostic Ad Kit: оффер, тексты и лид-форма",
+      "column": "done",
+      "created": "2026-04-23",
+      "completed": "2026-04-23",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-23/wb-facebook-mini-diagnostic-ad-kit-2026-04-23.md — пакет для запуска lead form / Instagram ads",
+      "type": "asset",
+      "area": "wb"
     }
   ]
 }
