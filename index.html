@@ -321,7 +321,7 @@ async function loadLimits() {
 
 function renderLimits(d) {
   const or = d.openrouter || {};
-  const cl = d.claude || {};
+  const cl = d.codex || {};
 
   const balance = or.balance;
   const balClass = balance === null ? '' : balance > 3 ? 'ok' : balance > 1 ? 'warn' : 'bad';
@@ -353,12 +353,16 @@ function renderLimits(d) {
       </div>
 
       <div class="limits-card">
-        <h3>🤖 Claude</h3>
+        <h3>🤖 Codex</h3>
         <div class="limit-row">
           <span class="limit-label">Контекст</span>
           <span class="limit-value ${ctxClass}">${ctxPct !== null ? ctxPct + '%' : '—'}</span>
         </div>
         ${ctxPct !== null ? `<div class="bar-wrap"><div class="bar ${ctxClass}" style="width:${ctxPct}%"></div></div>` : ''}
+        <div class="limit-row">
+          <span class="limit-label">Провайдер</span>
+          <span class="limit-value" style="font-size:11px;opacity:0.7">${fmt(cl.provider)}</span>
+        </div>
         <div class="limit-row">
           <span class="limit-label">Модель</span>
           <span class="limit-value" style="font-size:11px;opacity:0.7">${fmt(cl.model)}</span>
