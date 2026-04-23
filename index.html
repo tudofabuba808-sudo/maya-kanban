@@ -103,6 +103,8 @@
   }
 
   .task-tag  { font-size: 10px; background: rgba(255,255,255,0.1); border-radius: 6px; padding: 2px 6px; }
+  .task-tag-type { background: rgba(51, 144, 236, 0.18); color: #7fc1ff; }
+  .task-tag-area { background: rgba(107, 203, 119, 0.18); color: #8ee59a; }
   .task-date { font-size: 10px; opacity: 0.35; }
 
   .task-actions { display: flex; gap: 4px; margin-top: 8px; flex-wrap: wrap; }
@@ -279,8 +281,8 @@ function renderKanban() {
         <div class="task-meta">
           <div style="display:flex;gap:4px;flex-wrap:wrap">
             ${t.tag ? `<span class="task-tag">${esc(t.tag)}</span>` : ''}
-            ${col==='done' && t.type ? `<span class="task-tag">${esc(t.type)}</span>` : ''}
-            ${col==='done' && t.area ? `<span class="task-tag">${esc(t.area)}</span>` : ''}
+            ${col==='done' && t.type ? `<span class="task-tag task-tag-type">${esc(t.type)}</span>` : ''}
+            ${col==='done' && t.area ? `<span class="task-tag task-tag-area">${esc(t.area)}</span>` : ''}
           </div>
           <span class="task-date">${t.date||''}</span>
         </div>
