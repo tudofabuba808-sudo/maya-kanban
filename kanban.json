@@ -11,7 +11,9 @@
       "column": "done",
       "created": "2026-04-02",
       "completed": "2026-04-02",
-      "notes": "Projects/blog-content-plan.md — 12 идей RU + 5 EN постов"
+      "notes": "obsidian-vault:Projects/blog-content-plan.md — 12 идей RU + 5 EN постов",
+      "type": "asset",
+      "area": "amazon"
     },
     {
       "id": "task-002",
@@ -19,7 +21,9 @@
       "column": "done",
       "created": "2026-04-02",
       "completed": "2026-04-02",
-      "notes": "Projects/amazon-ppc-client-acquisition.md — LinkedIn, Reddit, Facebook, Upwork"
+      "notes": "obsidian-vault:Projects/amazon-ppc-client-acquisition.md — LinkedIn, Reddit, Facebook, Upwork",
+      "type": "asset",
+      "area": "amazon"
     },
     {
       "id": "task-003",
@@ -27,7 +31,9 @@
       "column": "done",
       "created": "2026-04-02",
       "completed": "2026-04-02",
-      "notes": "Projects/ready-posts/telegram-post-01-personal.md — готов к публикации 06.04"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-01-personal.md — готов к публикации 06.04",
+      "type": "post",
+      "area": "system"
     },
     {
       "id": "task-004",
@@ -35,21 +41,27 @@
       "column": "done",
       "created": "2026-04-02",
       "completed": "2026-04-02",
-      "notes": "Projects/ready-posts/linkedin-post-01-ppc-mistakes.md — готов к публикации 07.04"
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-01-ppc-mistakes.md — готов к публикации 07.04",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-005",
       "title": "Оптимизировать LinkedIn профиль под Amazon PPC Expert (EN)",
       "column": "todo",
       "created": "2026-04-02",
-      "notes": "Требует участия Сергея: заголовок, about, experience"
+      "notes": "Требует участия Сергея: заголовок, about, experience",
+      "type": "asset",
+      "area": "amazon"
     },
     {
       "id": "task-006",
       "title": "Первый пост в Telegram опубликовать",
       "column": "todo",
       "created": "2026-04-02",
-      "notes": "Сергей публикует сам, пост готов"
+      "notes": "Сергей публикует сам, пост готов",
+      "type": "asset",
+      "area": "system"
     },
     {
       "id": "task-007",
@@ -57,7 +69,9 @@
       "column": "done",
       "created": "2026-04-08",
       "completed": "2026-04-08",
-      "notes": "Projects/ready-posts/telegram-post-03-drr-growth.md — экспертный разбор + чек-лист"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-03-drr-growth.md — экспертный разбор + чек-лист",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-008",
@@ -65,7 +79,9 @@
       "column": "done",
       "created": "2026-04-08",
       "completed": "2026-04-08",
-      "notes": "Projects/ready-posts/linkedin-post-02-tacos-over-acos.md — EN пост для Amazon-аудитории"
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-02-tacos-over-acos.md — EN пост для Amazon-аудитории",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-009",
@@ -73,7 +89,9 @@
       "column": "done",
       "created": "2026-04-09",
       "completed": "2026-04-09",
-      "notes": "Projects/ready-posts/linkedin-post-03-proof-over-promises.md — готов экспертный пост для Amazon-аудитории"
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-03-proof-over-promises.md — готов экспертный пост для Amazon-аудитории",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-010",
@@ -81,7 +99,9 @@
       "column": "done",
       "created": "2026-04-09",
       "completed": "2026-04-09",
-      "notes": "Projects/amazon-lead-sprint-week1.md — пошаговый план лидогенерации + шаблон лида"
+      "notes": "obsidian-vault:Projects/amazon-lead-sprint-week1.md — пошаговый план лидогенерации + шаблон лида",
+      "type": "asset",
+      "area": "amazon"
     },
     {
       "id": "task-011",
@@ -89,7 +109,9 @@
       "column": "done",
       "created": "2026-04-10",
       "completed": "2026-04-10",
-      "notes": "Projects/ready-posts/linkedin-post-04-no-data-no-scale.md — EN пост с CTA на mini-audit"
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-04-no-data-no-scale.md — EN пост с CTA на mini-audit",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-012",
@@ -97,7 +119,9 @@
       "column": "done",
       "created": "2026-04-10",
       "completed": "2026-04-10",
-      "notes": "Projects/ready-posts/telegram-post-04-wb-audit-hook.md — пост про связку конверсия карточки + ДРР"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-04-wb-audit-hook.md — пост про связку конверсия карточки + ДРР",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-013",
@@ -105,7 +129,9 @@
       "column": "done",
       "created": "2026-04-11",
       "completed": "2026-04-11",
-      "notes": "Projects/ready-posts/telegram-post-04-wintering-workday.md — готовый личный пост под 13.04 с CTA на метрики"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-04-wintering-workday.md — готовый личный пост под 13.04 с CTA на метрики",
+      "type": "post",
+      "area": "system"
     },
     {
       "id": "task-014",
@@ -113,7 +139,9 @@
       "column": "done",
       "created": "2026-04-11",
       "completed": "2026-04-11",
-      "notes": "Projects/ready-posts/linkedin-post-02-structure-before-scale.md — EN пост про структуру кампаний перед ростом бюджета"
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-02-structure-before-scale.md — EN пост про структуру кампаний перед ростом бюджета",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-015",
@@ -121,7 +149,9 @@
       "column": "done",
       "created": "2026-04-12",
       "completed": "2026-04-12",
-      "notes": "Projects/ready-posts/telegram-post-05-wb-promotions.md — готовый пост про экономику акций и маржу"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-05-wb-promotions.md — готовый пост про экономику акций и маржу",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-016",
@@ -129,7 +159,9 @@
       "column": "done",
       "created": "2026-04-12",
       "completed": "2026-04-12",
-      "notes": "Projects/ready-posts/linkedin-post-03-acos-case-study.md — EN пост про снижение ACoS через структуру и контроль search terms"
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-03-acos-case-study.md — EN пост про снижение ACoS через структуру и контроль search terms",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-017",
@@ -137,7 +169,9 @@
       "column": "done",
       "created": "2026-04-13",
       "completed": "2026-04-13",
-      "notes": "Projects/ready-posts/telegram-post-06-morning-metrics.md — готовый пост про заказы, ДРР и конверсию как утренний контроль"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-06-morning-metrics.md — готовый пост про заказы, ДРР и конверсию как утренний контроль",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-018",
@@ -145,7 +179,9 @@
       "column": "done",
       "created": "2026-04-13",
       "completed": "2026-04-13",
-      "notes": "Projects/ready-posts/linkedin-post-04-three-metrics-that-matter.md — EN пост про spend, efficiency и search term quality"
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-04-three-metrics-that-matter.md — EN пост про spend, efficiency и search term quality",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-019",
@@ -153,7 +189,9 @@
       "column": "done",
       "created": "2026-04-14",
       "completed": "2026-04-14",
-      "notes": "Projects/ready-posts/telegram-post-07-unit-economics-before-ads.md — готовый пост про связь ДРР и юнит-экономики"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-07-unit-economics-before-ads.md — готовый пост про связь ДРР и юнит-экономики",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-020",
@@ -161,7 +199,9 @@
       "column": "done",
       "created": "2026-04-14",
       "completed": "2026-04-14",
-      "notes": "Projects/ready-posts/linkedin-post-05-five-question-audit.md — EN пост с pre-audit framework для Amazon PPC"
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-05-five-question-audit.md — EN пост с pre-audit framework для Amazon PPC",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-021",
@@ -169,7 +209,9 @@
       "column": "done",
       "created": "2026-04-15",
       "completed": "2026-04-15",
-      "notes": "Projects/ready-posts/telegram-post-08-wb-price-vs-ads.md — готовый пост про цену, маржу и допустимый ДРР"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-08-wb-price-vs-ads.md — готовый пост про цену, маржу и допустимый ДРР",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-022",
@@ -177,7 +219,9 @@
       "column": "done",
       "created": "2026-04-15",
       "completed": "2026-04-15",
-      "notes": "Projects/amazon-offers/amazon-ppc-offer-options-2026-04-15.md — 3 модели оффера, гипотезы по цене и рекомендуемая лестница"
+      "notes": "obsidian-vault:Projects/amazon-offers/amazon-ppc-offer-options-2026-04-15.md — 3 модели оффера, гипотезы по цене и рекомендуемая лестница",
+      "type": "offer",
+      "area": "amazon"
     },
     {
       "id": "task-023",
@@ -185,7 +229,9 @@
       "column": "done",
       "created": "2026-04-16",
       "completed": "2026-04-16",
-      "notes": "Projects/ready-posts/telegram-post-09-amazon-vs-wb-2026.md — экспертный пост про позиционирование между WB и Amazon"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-09-amazon-vs-wb-2026.md — экспертный пост про позиционирование между WB и Amazon",
+      "type": "post",
+      "area": "amazon"
     },
     {
       "id": "task-024",
@@ -193,7 +239,9 @@
       "column": "done",
       "created": "2026-04-16",
       "completed": "2026-04-16",
-      "notes": "Projects/amazon-offers/amazon-linkedin-outreach-sequence-2026-04-16.md — готовая sequence для лидогенерации в LinkedIn"
+      "notes": "obsidian-vault:Projects/amazon-offers/amazon-linkedin-outreach-sequence-2026-04-16.md — готовая sequence для лидогенерации в LinkedIn",
+      "type": "offer",
+      "area": "amazon"
     },
     {
       "id": "task-025",
@@ -201,7 +249,9 @@
       "column": "done",
       "created": "2026-04-17",
       "completed": "2026-04-17",
-      "notes": "Projects/ready-posts/telegram-post-10-wb-when-ads-are-not-the-problem.md — готовый пост про отличие проблем рекламы, карточки и юнит-экономики"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-10-wb-when-ads-are-not-the-problem.md — готовый пост про отличие проблем рекламы, карточки и юнит-экономики",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-026",
@@ -209,7 +259,9 @@
       "column": "done",
       "created": "2026-04-17",
       "completed": "2026-04-17",
-      "notes": "Projects/amazon-offers/amazon-mini-audit-checklist-2026-04-17.md — чек-лист для LinkedIn, DM и discovery call"
+      "notes": "obsidian-vault:Projects/amazon-offers/amazon-mini-audit-checklist-2026-04-17.md — чек-лист для LinkedIn, DM и discovery call",
+      "type": "offer",
+      "area": "amazon"
     },
     {
       "id": "task-027",
@@ -217,7 +269,9 @@
       "column": "done",
       "created": "2026-04-18",
       "completed": "2026-04-18",
-      "notes": "Projects/amazon-offers/amazon-linkedin-profile-pack-2026-04-18.md — headline, about, CTA, connection note, DM и setup checklist"
+      "notes": "obsidian-vault:Projects/amazon-offers/amazon-linkedin-profile-pack-2026-04-18.md — headline, about, CTA, connection note, DM и setup checklist",
+      "type": "tool",
+      "area": "amazon"
     },
     {
       "id": "task-028",
@@ -225,7 +279,9 @@
       "column": "done",
       "created": "2026-04-18",
       "completed": "2026-04-18",
-      "notes": "Projects/ready-posts/telegram-post-11-wb-why-sales-dont-grow-from-ads-alone.md — готовый пост про цену, CTR, конверсию и допустимый ДРР"
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-11-wb-why-sales-dont-grow-from-ads-alone.md — готовый пост про цену, CTR, конверсию и допустимый ДРР",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-029",
@@ -233,7 +289,9 @@
       "column": "done",
       "created": "2026-04-19",
       "completed": "2026-04-19",
-      "notes": "Projects/wb-facebook-lead-funnel-2026-04-19.md — ICP, оффер, lead form, ad angles, qualification и метрики теста"
+      "notes": "obsidian-vault:Projects/wb-facebook-lead-funnel-2026-04-19.md — ICP, оффер, lead form, ad angles, qualification и метрики теста",
+      "type": "offer",
+      "area": "wb"
     },
     {
       "id": "task-030",
@@ -241,7 +299,9 @@
       "column": "done",
       "created": "2026-04-19",
       "completed": "2026-04-19",
-      "notes": "Projects/amazon-offers/amazon-discovery-call-and-proposal-pack-2026-04-19.md — структура созвона, red flags, verbal bridge и skeleton proposal"
+      "notes": "obsidian-vault:Projects/amazon-offers/amazon-discovery-call-and-proposal-pack-2026-04-19.md — структура созвона, red flags, verbal bridge и skeleton proposal",
+      "type": "offer",
+      "area": "amazon"
     },
     {
       "id": "task-031",
@@ -249,7 +309,9 @@
       "column": "done",
       "created": "2026-04-21",
       "completed": "2026-04-21",
-      "notes": "reports/2026-04-21-wb-anomalies.md — разбор по Котихина, Синюкова, Малько, Романов, Паскаль, Monkfit: заказы, выкупы, аномалии и action points"
+      "notes": "maya:reports/2026-04-21-wb-anomalies.md — разбор по Котихина, Синюкова, Малько, Романов, Паскаль, Monkfit: заказы, выкупы, аномалии и action points",
+      "type": "report",
+      "area": "wb"
     },
     {
       "id": "task-032",
@@ -257,7 +319,9 @@
       "column": "done",
       "created": "2026-04-21",
       "completed": "2026-04-21",
-      "notes": "content/2026-04-21-wb-post-draft.md — готовый черновик поста на основе живых данных из кабинетов"
+      "notes": "content/2026-04-21-wb-post-draft.md — готовый черновик поста на основе живых данных из кабинетов",
+      "type": "post",
+      "area": "wb"
     },
     {
       "id": "task-033",
@@ -265,7 +329,9 @@
       "column": "done",
       "created": "2026-04-22",
       "completed": "2026-04-22",
-      "notes": "/home/serg/.openclaw/workspace/reports/2026-04-22-wb-anomalies.md"
+      "notes": "maya:reports/2026-04-22-wb-anomalies.md",
+      "type": "report",
+      "area": "wb"
     },
     {
       "id": "task-034",
@@ -273,7 +339,9 @@
       "column": "done",
       "created": "2026-04-22",
       "completed": "2026-04-22",
-      "notes": "/tmp/obsidian-vault-index/Projects/amazon-offers/amazon-first-5-clients-offer-pack-2026-04-22.md"
+      "notes": "obsidian-vault:Projects/amazon-offers/amazon-first-5-clients-offer-pack-2026-04-22.md",
+      "type": "offer",
+      "area": "amazon"
     }
   ]
 }
