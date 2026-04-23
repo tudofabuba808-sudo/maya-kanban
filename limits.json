@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-04-23 14:37 UTC",
+  "updated_at": "2026-04-23 18:00 UTC",
   "openrouter": {
     "total_credits": 6,
     "total_usage": 2.0306,
@@ -8,10 +8,11 @@
   "codex": {
     "provider": "Codex",
     "model": "openai-codex/gpt-5.4",
-    "context_used_k": 176.0,
-    "context_limit_k": 272.0,
-    "context_used_pct": 65,
+    "context_used_k": null,
+    "context_limit_k": null,
+    "context_used_pct": null,
     "compactions": null,
-    "source": "openclaw status"
+    "source": null,
+    "status_error": "[Errno 2] No such file or directory: 'openclaw'"
   }
 }
