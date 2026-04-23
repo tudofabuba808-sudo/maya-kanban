@@ -277,7 +277,11 @@ function renderKanban() {
         <div class="task-title">${esc(t.title)}</div>
         ${t.desc ? `<div class="task-desc">${esc(t.desc)}</div>` : ''}
         <div class="task-meta">
-          ${t.tag ? `<span class="task-tag">${esc(t.tag)}</span>` : '<span></span>'}
+          <div style="display:flex;gap:4px;flex-wrap:wrap">
+            ${t.tag ? `<span class="task-tag">${esc(t.tag)}</span>` : ''}
+            ${col==='done' && t.type ? `<span class="task-tag">${esc(t.type)}</span>` : ''}
+            ${col==='done' && t.area ? `<span class="task-tag">${esc(t.area)}</span>` : ''}
+          </div>
           <span class="task-date">${t.date||''}</span>
         </div>
         <div class="task-actions">
