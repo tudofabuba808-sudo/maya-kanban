@@ -1,14 +1,17 @@
 {
-  "updated_at": "2026-04-23 14:21 UTC",
+  "updated_at": "2026-04-23 14:32 UTC",
   "openrouter": {
     "total_credits": 6,
     "total_usage": 2.0306,
     "balance": 3.97
   },
   "codex": {
-    "model": "openai-codex/gpt-5.4",
     "provider": "Codex",
-    "context_used_pct": null,
-    "compactions": null
+    "model": "openai-codex/gpt-5.4",
+    "context_used_k": 176.0,
+    "context_limit_k": 272.0,
+    "context_used_pct": 65,
+    "compactions": null,
+    "source": "openclaw status"
   }
 }
