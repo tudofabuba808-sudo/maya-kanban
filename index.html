@@ -360,6 +360,10 @@ function renderLimits(d) {
         </div>
         ${ctxPct !== null ? `<div class="bar-wrap"><div class="bar ${ctxClass}" style="width:${ctxPct}%"></div></div>` : ''}
         <div class="limit-row">
+          <span class="limit-label">Токены</span>
+          <span class="limit-value" style="font-size:11px;opacity:0.7">${cl.context_used_k !== null && cl.context_limit_k !== null ? cl.context_used_k + 'k / ' + cl.context_limit_k + 'k' : '—'}</span>
+        </div>
+        <div class="limit-row">
           <span class="limit-label">Провайдер</span>
           <span class="limit-value" style="font-size:11px;opacity:0.7">${fmt(cl.provider)}</span>
         </div>
@@ -375,6 +379,7 @@ function renderLimits(d) {
 
       <div style="text-align:center">
         <div class="updated-at">Данные от: ${d.updated_at || '—'}</div>
+        <div class="updated-at" style="margin-top:4px">Источник Codex: ${fmt(cl.source)}</div>
         <div class="updated-at" style="margin-top:4px">Обновляется автоматически</div>
         <button class="refresh-btn" style="margin-top:8px" onclick="loadLimits()">🔄 Обновить</button>
       </div>
