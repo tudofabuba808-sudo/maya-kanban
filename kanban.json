@@ -362,6 +362,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-04-23/wb-facebook-mini-diagnostic-ad-kit-2026-04-23.md — пакет для запуска lead form / Instagram ads",
       "type": "asset",
       "area": "wb"
+    },
+    {
+      "id": "task-037",
+      "title": "Telegram-пост #13: ДРР это симптом, а не диагноз",
+      "column": "done",
+      "created": "2026-04-24",
+      "completed": "2026-04-24",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-24/telegram-post-13-wb-drr-is-a-symptom.md — готовый пост про ДРР, конверсию, цену, выкуп и юнит-экономику",
+      "type": "post",
+      "area": "wb"
+    },
+    {
+      "id": "task-038",
+      "title": "Amazon First 5 Clients ICP Screen: фильтр лидов + outreach angles",
+      "column": "done",
+      "created": "2026-04-24",
+      "completed": "2026-04-24",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-24/amazon-first-5-clients-icp-screen-2026-04-24.md — ICP, red flags, 3 оффера первого касания и 5 outreach angles",
+      "type": "asset",
+      "area": "amazon"
     }
   ]
 }
