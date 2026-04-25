@@ -382,6 +382,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-04-24/amazon-first-5-clients-icp-screen-2026-04-24.md — ICP, red flags, 3 оффера первого касания и 5 outreach angles",
       "type": "asset",
       "area": "amazon"
+    },
+    {
+      "id": "task-039",
+      "title": "WB anomalies report: live разбор за 24.04.2026",
+      "column": "done",
+      "created": "2026-04-25",
+      "completed": "2026-04-25",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-25/result-wb-anomalies-2026-04-25.md — live отчёт по активным клиентам, просадки, невыкуп и риск по ДРР",
+      "type": "report",
+      "area": "wb"
+    },
+    {
+      "id": "task-040",
+      "title": "Amazon PPC Leak Audit: front-end offer asset",
+      "column": "done",
+      "created": "2026-04-25",
+      "completed": "2026-04-25",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-25/result-amazon-ppc-leak-audit-2026-04-25.md — готовый оффер, pitch, CTA и гипотеза по чеку для первых Amazon лидов",
+      "type": "asset",
+      "area": "amazon"
     }
   ]
 }
