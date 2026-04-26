@@ -402,6 +402,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-04-25/result-amazon-ppc-leak-audit-2026-04-25.md — готовый оффер, pitch, CTA и гипотеза по чеку для первых Amazon лидов",
       "type": "asset",
       "area": "amazon"
+    },
+    {
+      "id": "task-041",
+      "title": "WB anomalies report: live разбор за 25.04.2026",
+      "column": "done",
+      "created": "2026-04-26",
+      "completed": "2026-04-26",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-26/result-wb-anomalies-2026-04-26.md — live отчёт по активным клиентам, просадки, невыкуп и риск по ДРР за 25.04.2026",
+      "type": "report",
+      "area": "wb"
+    },
+    {
+      "id": "task-042",
+      "title": "Amazon LinkedIn mini-pack: 3 posts for PPC Leak Audit",
+      "column": "done",
+      "created": "2026-04-26",
+      "completed": "2026-04-26",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-26/amazon-linkedin-mini-pack-2026-04-26.md — 3 готовых LinkedIn-поста на английском под оффер Amazon PPC Leak Audit",
+      "type": "asset",
+      "area": "amazon"
     }
   ]
 }
