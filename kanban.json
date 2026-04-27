@@ -422,6 +422,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-04-26/amazon-linkedin-mini-pack-2026-04-26.md — 3 готовых LinkedIn-поста на английском под оффер Amazon PPC Leak Audit",
       "type": "asset",
       "area": "amazon"
+    },
+    {
+      "id": "task-043",
+      "title": "Amazon LinkedIn post: auto campaigns and organic ranking",
+      "column": "done",
+      "created": "2026-04-27",
+      "completed": "2026-04-27",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-27/linkedin-post-07-amazon-auto-campaigns-organic-ranking-2026-04-27.md — готовый EN LinkedIn-пост с CTA на diagnostic review и notes по использованию",
+      "type": "asset",
+      "area": "amazon"
+    },
+    {
+      "id": "task-044",
+      "title": "WB reactivation angle pack: 3 сегмента и готовые сообщения",
+      "column": "done",
+      "created": "2026-04-27",
+      "completed": "2026-04-27",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-27/wb-reactivation-angle-pack-2026-04-27.md — reactivation углы, короткие сообщения, голосовой скрипт и утренний план касаний",
+      "type": "asset",
+      "area": "wb"
     }
   ]
 }
