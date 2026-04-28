@@ -442,6 +442,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-04-27/wb-reactivation-angle-pack-2026-04-27.md — reactivation углы, короткие сообщения, голосовой скрипт и утренний план касаний",
       "type": "asset",
       "area": "wb"
+    },
+    {
+      "id": "task-045",
+      "title": "WB anomalies report for 2026-04-27",
+      "column": "done",
+      "created": "2026-04-28",
+      "completed": "2026-04-28",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-28/result-wb-anomalies-2026-04-28.md — daily WB report with 7-day delta and top ДРР risks",
+      "type": "report",
+      "area": "wb"
+    },
+    {
+      "id": "task-046",
+      "title": "LinkedIn post #8: High CTR, low conversion = post-click problem (EN)",
+      "column": "done",
+      "created": "2026-04-28",
+      "completed": "2026-04-28",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-28/linkedin-post-08-amazon-high-ctr-low-conversion-2026-04-28.md — ready Amazon client-acquisition post + usage notes",
+      "type": "post",
+      "area": "amazon"
     }
   ]
 }
