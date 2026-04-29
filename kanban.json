@@ -462,6 +462,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-04-28/linkedin-post-08-amazon-high-ctr-low-conversion-2026-04-28.md — ready Amazon client-acquisition post + usage notes",
       "type": "post",
       "area": "amazon"
+    },
+    {
+      "id": "task-047",
+      "title": "LinkedIn post #09: search term waste vs listing bottleneck (Amazon EN)",
+      "column": "done",
+      "created": "2026-04-29",
+      "completed": "2026-04-29",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-29/linkedin-post-09-amazon-search-term-waste-vs-listing-bottleneck-2026-04-29.md — ready Amazon client-acquisition post with diagnostic CTA",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-048",
+      "title": "WB mini-diagnostic landing copy: lead-gen asset for Facebook/Instagram/Taplink",
+      "column": "done",
+      "created": "2026-04-29",
+      "completed": "2026-04-29",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-29/wb-mini-diagnostic-landing-copy-2026-04-29.md — landing copy, lead form questions, ad copy, and follow-up message",
+      "type": "asset",
+      "area": "wb"
     }
   ]
 }
