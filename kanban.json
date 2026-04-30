@@ -482,6 +482,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-04-29/wb-mini-diagnostic-landing-copy-2026-04-29.md — landing copy, lead form questions, ad copy, and follow-up message",
       "type": "asset",
       "area": "wb"
+    },
+    {
+      "id": "task-049",
+      "title": "Telegram/Instagram post: April wrap-up and May focus (RU)",
+      "column": "done",
+      "created": "2026-04-30",
+      "completed": "2026-04-30",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-30/blog-april-wrap-post-2026-04-30.md — ready RU post for Telegram/Instagram + usage notes",
+      "type": "post",
+      "area": "blog"
+    },
+    {
+      "id": "task-050",
+      "title": "Amazon LinkedIn outreach pack: free diagnostic post + DM (EN)",
+      "column": "done",
+      "created": "2026-04-30",
+      "completed": "2026-04-30",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-04-30/amazon-linkedin-outreach-pack-2026-04-30.md — ready LinkedIn post, DM templates, and usage notes",
+      "type": "asset",
+      "area": "amazon"
     }
   ]
 }
