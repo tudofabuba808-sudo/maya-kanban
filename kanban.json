@@ -502,6 +502,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-04-30/amazon-linkedin-outreach-pack-2026-04-30.md — ready LinkedIn post, DM templates, and usage notes",
       "type": "asset",
       "area": "amazon"
+    },
+    {
+      "id": "task-051",
+      "title": "LinkedIn-пост #10: more budget does not fix weak search terms",
+      "column": "done",
+      "created": "2026-05-01",
+      "completed": "2026-05-01",
+      "notes": "workspace:content/2026-05-01-linkedin-post-10-amazon-budget-doesnt-fix-weak-search-terms.md ; obsidian-vault:Projects/maya-outputs/2026-05-01/linkedin-post-10-amazon-budget-doesnt-fix-weak-search-terms-2026-05-01.md",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-052",
+      "title": "WB Reactivation Mini-Audit Pack for warm ex-clients",
+      "column": "done",
+      "created": "2026-05-01",
+      "completed": "2026-05-01",
+      "notes": "workspace:offers/2026-05-01-wb-reactivation-mini-audit-pack.md ; obsidian-vault:Projects/maya-outputs/2026-05-01/wb-reactivation-mini-audit-pack-2026-05-01.md",
+      "type": "asset",
+      "area": "wb"
     }
   ]
 }
