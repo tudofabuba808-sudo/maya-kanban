@@ -522,6 +522,26 @@
       "notes": "workspace:offers/2026-05-01-wb-reactivation-mini-audit-pack.md ; obsidian-vault:Projects/maya-outputs/2026-05-01/wb-reactivation-mini-audit-pack-2026-05-01.md",
       "type": "asset",
       "area": "wb"
+    },
+    {
+      "id": "task-053",
+      "title": "LinkedIn post #11: Good ACoS can hide a growth problem (Amazon EN)",
+      "column": "done",
+      "created": "2026-05-02",
+      "completed": "2026-05-02",
+      "notes": "workspace:content/2026-05-02-linkedin-post-11-amazon-good-acos-can-hide-a-growth-problem.md ; obsidian-vault:Projects/maya-outputs/2026-05-02/linkedin-post-11-amazon-good-acos-can-hide-a-growth-problem-2026-05-02.md",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-054",
+      "title": "WB Stalled Profit Recovery Pack for warm leads and ex-clients",
+      "column": "done",
+      "created": "2026-05-02",
+      "completed": "2026-05-02",
+      "notes": "workspace:offers/2026-05-02-wb-stalled-profit-recovery-pack.md ; obsidian-vault:Projects/maya-outputs/2026-05-02/wb-stalled-profit-recovery-pack-2026-05-02.md",
+      "type": "asset",
+      "area": "wb"
     }
   ]
 }
