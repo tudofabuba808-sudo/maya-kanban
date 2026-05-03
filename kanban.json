@@ -542,6 +542,24 @@
       "notes": "workspace:offers/2026-05-02-wb-stalled-profit-recovery-pack.md ; obsidian-vault:Projects/maya-outputs/2026-05-02/wb-stalled-profit-recovery-pack-2026-05-02.md",
       "type": "asset",
       "area": "wb"
+    },
+    {
+      "id": "task-055",
+      "title": "Опубликовать WB voice note: почему реклама не чинит слабую карточку",
+      "column": "todo",
+      "created": "2026-05-03",
+      "notes": "Готовый материал: obsidian-vault:Projects/maya-outputs/2026-05-03/wb-voice-note-why-ads-dont-fix-weak-listing-2026-05-03.md. Использовать как Telegram/Instagram voice/post и прогрев тёплых WB-лидов.",
+      "type": "post",
+      "area": "wb"
+    },
+    {
+      "id": "task-056",
+      "title": "Протестировать Amazon PPC Growth Bottleneck Diagnostic на 3-5 лидах",
+      "column": "todo",
+      "created": "2026-05-03",
+      "notes": "Оффер и CTA: obsidian-vault:Projects/maya-outputs/2026-05-03/amazon-growth-bottleneck-diagnostic-2026-05-03.md. Цель: проверить отклик на diagnostic-first angle.",
+      "type": "asset",
+      "area": "amazon"
     }
   ]
 }
