@@ -560,6 +560,24 @@
       "notes": "Оффер и CTA: obsidian-vault:Projects/maya-outputs/2026-05-03/amazon-growth-bottleneck-diagnostic-2026-05-03.md. Цель: проверить отклик на diagnostic-first angle.",
       "type": "asset",
       "area": "amazon"
+    },
+    {
+      "id": "task-057",
+      "title": "Проверить и починить отставание данных WB admin API",
+      "column": "todo",
+      "created": "2026-05-04",
+      "notes": "Ночной чек показал, что последний доступный день в API = 29.04.2026, отставание 5 дней. Отчёт: obsidian-vault:Projects/maya-outputs/2026-05-04/result-wb-data-freshness-and-anomalies-2026-05-04.md",
+      "type": "ops",
+      "area": "wb"
+    },
+    {
+      "id": "task-058",
+      "title": "Опубликовать LinkedIn post #12 про low ACoS and hidden demand problem",
+      "column": "todo",
+      "created": "2026-05-04",
+      "notes": "Готовый пост: workspace:content/2026-05-04-linkedin-post-12-amazon-low-acos-can-hide-a-demand-problem.md ; vault: obsidian-vault:Projects/maya-outputs/2026-05-04/linkedin-post-12-amazon-low-acos-can-hide-a-demand-problem-2026-05-04.md. Можно добить 5-10 warm DM тем же diagnostic angle.",
+      "type": "post",
+      "area": "amazon"
     }
   ]
 }
