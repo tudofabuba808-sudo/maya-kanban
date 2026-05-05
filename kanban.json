@@ -578,6 +578,26 @@
       "notes": "Готовый пост: workspace:content/2026-05-04-linkedin-post-12-amazon-low-acos-can-hide-a-demand-problem.md ; vault: obsidian-vault:Projects/maya-outputs/2026-05-04/linkedin-post-12-amazon-low-acos-can-hide-a-demand-problem-2026-05-04.md. Можно добить 5-10 warm DM тем же diagnostic angle.",
       "type": "post",
       "area": "amazon"
+    },
+    {
+      "id": "task-059",
+      "title": "LinkedIn-пост #13: High impressions with no orders means the traffic is wrong",
+      "column": "done",
+      "created": "2026-05-05",
+      "completed": "2026-05-05",
+      "notes": "workspace:content/2026-05-05-linkedin-post-13-amazon-high-impressions-no-orders-means-the-traffic-is-wrong.md; vault:Projects/maya-outputs/2026-05-05/linkedin-post-13-amazon-high-impressions-no-orders-means-the-traffic-is-wrong-2026-05-05.md",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-060",
+      "title": "WB Facebook Lead Audit Pack",
+      "column": "done",
+      "created": "2026-05-05",
+      "completed": "2026-05-05",
+      "notes": "workspace:offers/2026-05-05-wb-facebook-lead-audit-pack.md; vault:Projects/maya-outputs/2026-05-05/wb-facebook-lead-audit-pack-2026-05-05.md",
+      "type": "asset",
+      "area": "wb"
     }
   ]
 }
