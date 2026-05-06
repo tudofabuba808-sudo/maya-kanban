@@ -598,6 +598,26 @@
       "notes": "workspace:offers/2026-05-05-wb-facebook-lead-audit-pack.md; vault:Projects/maya-outputs/2026-05-05/wb-facebook-lead-audit-pack-2026-05-05.md",
       "type": "asset",
       "area": "wb"
+    },
+    {
+      "id": "task-061",
+      "title": "LinkedIn-пост #14: better CTR does not automatically mean better growth",
+      "column": "done",
+      "created": "2026-05-06",
+      "completed": "2026-05-06",
+      "notes": "workspace:content/2026-05-06-linkedin-post-14-amazon-better-ctr-does-not-mean-better-growth.md ; obsidian-vault:Projects/maya-outputs/2026-05-06/linkedin-post-14-amazon-better-ctr-does-not-mean-better-growth-2026-05-06.md",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-062",
+      "title": "WB Client Referral Pack: intro messages for warm referrals",
+      "column": "done",
+      "created": "2026-05-06",
+      "completed": "2026-05-06",
+      "notes": "workspace:offers/2026-05-06-wb-client-referral-pack.md ; obsidian-vault:Projects/maya-outputs/2026-05-06/wb-client-referral-pack-2026-05-06.md",
+      "type": "asset",
+      "area": "wb"
     }
   ]
 }
