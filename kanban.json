@@ -618,6 +618,26 @@
       "notes": "workspace:offers/2026-05-06-wb-client-referral-pack.md ; obsidian-vault:Projects/maya-outputs/2026-05-06/wb-client-referral-pack-2026-05-06.md",
       "type": "asset",
       "area": "wb"
+    },
+    {
+      "id": "task-063",
+      "title": "Amazon Pricing and Monetization Model: diagnostic -> advisory -> management",
+      "column": "done",
+      "created": "2026-05-07",
+      "completed": "2026-05-07",
+      "notes": "workspace:offers/2026-05-07-amazon-pricing-and-monetization-model.md ; vault:Projects/maya-outputs/2026-05-07/amazon-pricing-and-monetization-model-2026-05-07.md",
+      "type": "asset",
+      "area": "amazon"
+    },
+    {
+      "id": "task-064",
+      "title": "Blog Content Sprint: 7-day WB + Amazon posting plan",
+      "column": "done",
+      "created": "2026-05-07",
+      "completed": "2026-05-07",
+      "notes": "workspace:content/2026-05-07-blog-content-sprint-wb-amazon.md ; vault:Projects/maya-outputs/2026-05-07/blog-content-sprint-wb-amazon-2026-05-07.md",
+      "type": "asset",
+      "area": "blog"
     }
   ]
 }
