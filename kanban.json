@@ -638,6 +638,26 @@
       "notes": "workspace:content/2026-05-07-blog-content-sprint-wb-amazon.md ; vault:Projects/maya-outputs/2026-05-07/blog-content-sprint-wb-amazon-2026-05-07.md",
       "type": "asset",
       "area": "blog"
+    },
+    {
+      "id": "task-065",
+      "title": "LinkedIn пост #15: 3 signs your Amazon PPC issue is structure, not bids",
+      "column": "done",
+      "created": "2026-05-08",
+      "completed": "2026-05-08",
+      "notes": "obsidian-vault:Projects/ready-posts/linkedin-post-02-ppc-structure-signals.md; obsidian-vault:Projects/maya-outputs/2026-05-08/result-linkedin-post-02-ppc-structure-signals.md",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-066",
+      "title": "Telegram пост #14: почему рост продаж на WB не равен росту прибыли",
+      "column": "done",
+      "created": "2026-05-08",
+      "completed": "2026-05-08",
+      "notes": "obsidian-vault:Projects/ready-posts/telegram-post-02-wb-profit-vs-sales.md; obsidian-vault:Projects/maya-outputs/2026-05-08/result-telegram-post-02-wb-profit-vs-sales.md",
+      "type": "post",
+      "area": "wb"
     }
   ]
 }
