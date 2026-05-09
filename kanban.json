@@ -658,6 +658,26 @@
       "notes": "obsidian-vault:Projects/ready-posts/telegram-post-02-wb-profit-vs-sales.md; obsidian-vault:Projects/maya-outputs/2026-05-08/result-telegram-post-02-wb-profit-vs-sales.md",
       "type": "post",
       "area": "wb"
+    },
+    {
+      "id": "task-067",
+      "title": "Amazon LinkedIn Profile Pack: headline, about, featured, DM starter",
+      "column": "done",
+      "created": "2026-05-09",
+      "completed": "2026-05-09",
+      "notes": "workspace:offers/2026-05-09-amazon-linkedin-profile-pack.md; vault:Projects/maya-outputs/2026-05-09/amazon-linkedin-profile-pack-2026-05-09.md; vault:Projects/maya-outputs/2026-05-09/material-amazon-linkedin-profile-pack-2026-05-09.md",
+      "type": "asset",
+      "area": "amazon"
+    },
+    {
+      "id": "task-068",
+      "title": "Telegram пост #15: когда ты снижаешь ДРР, но убиваешь рост",
+      "column": "done",
+      "created": "2026-05-09",
+      "completed": "2026-05-09",
+      "notes": "workspace:content/2026-05-09-telegram-post-15-wb-when-you-cut-drr-and-kill-growth.md; vault:Projects/maya-outputs/2026-05-09/telegram-post-15-wb-when-you-cut-drr-and-kill-growth-2026-05-09.md; vault:Projects/maya-outputs/2026-05-09/material-telegram-post-15-wb-when-you-cut-drr-and-kill-growth-2026-05-09.md",
+      "type": "post",
+      "area": "wb"
     }
   ]
 }
