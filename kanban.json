@@ -678,6 +678,22 @@
       "notes": "workspace:content/2026-05-09-telegram-post-15-wb-when-you-cut-drr-and-kill-growth.md; vault:Projects/maya-outputs/2026-05-09/telegram-post-15-wb-when-you-cut-drr-and-kill-growth-2026-05-09.md; vault:Projects/maya-outputs/2026-05-09/material-telegram-post-15-wb-when-you-cut-drr-and-kill-growth-2026-05-09.md",
       "type": "post",
       "area": "wb"
+    },
+    {
+      "id": "task-069",
+      "title": "Amazon discovery call and follow-up pack",
+      "column": "done",
+      "created": "2026-05-10",
+      "completed": "2026-05-10",
+      "notes": "workspace:offers/2026-05-10-amazon-discovery-call-and-follow-up-pack.md; vault:Projects/maya-outputs/2026-05-10/amazon-discovery-call-and-follow-up-pack-2026-05-10.md"
+    },
+    {
+      "id": "task-070",
+      "title": "WB monthly growth review pack",
+      "column": "done",
+      "created": "2026-05-10",
+      "completed": "2026-05-10",
+      "notes": "workspace:offers/2026-05-10-wb-monthly-growth-review-pack.md; vault:Projects/maya-outputs/2026-05-10/wb-monthly-growth-review-pack-2026-05-10.md"
     }
   ]
 }
