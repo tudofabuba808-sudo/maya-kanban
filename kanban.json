@@ -694,6 +694,26 @@
       "created": "2026-05-10",
       "completed": "2026-05-10",
       "notes": "workspace:offers/2026-05-10-wb-monthly-growth-review-pack.md; vault:Projects/maya-outputs/2026-05-10/wb-monthly-growth-review-pack-2026-05-10.md"
+    },
+    {
+      "id": "task-071",
+      "title": "Amazon Audit Intake and Diagnostic Pack",
+      "column": "done",
+      "created": "2026-05-11",
+      "completed": "2026-05-11",
+      "notes": "workspace:offers/2026-05-11-amazon-audit-intake-and-diagnostic-pack.md | obsidian-vault:Projects/maya-outputs/2026-05-11/amazon-audit-intake-and-diagnostic-pack-2026-05-11.md",
+      "type": "asset",
+      "area": "amazon"
+    },
+    {
+      "id": "task-072",
+      "title": "WB Client Save and Expand Pack",
+      "column": "done",
+      "created": "2026-05-11",
+      "completed": "2026-05-11",
+      "notes": "workspace:offers/2026-05-11-wb-client-save-and-expand-pack.md | obsidian-vault:Projects/maya-outputs/2026-05-11/wb-client-save-and-expand-pack-2026-05-11.md",
+      "type": "asset",
+      "area": "wb"
     }
   ]
 }
