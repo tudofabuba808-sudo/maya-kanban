@@ -714,6 +714,26 @@
       "notes": "workspace:offers/2026-05-11-wb-client-save-and-expand-pack.md | obsidian-vault:Projects/maya-outputs/2026-05-11/wb-client-save-and-expand-pack-2026-05-11.md",
       "type": "asset",
       "area": "wb"
+    },
+    {
+      "id": "task-073",
+      "title": "Amazon LinkedIn post #16: when you keep optimizing, but the account still does not scale",
+      "column": "done",
+      "created": "2026-05-12",
+      "completed": "2026-05-12",
+      "notes": "workspace:content/2026-05-12-linkedin-post-16-amazon-when-you-keep-optimizing-but-the-account-still-does-not-scale.md | obsidian-vault:Projects/maya-outputs/2026-05-12/linkedin-post-16-amazon-when-you-keep-optimizing-but-the-account-still-does-not-scale-2026-05-12.md",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-074",
+      "title": "Telegram пост #16: рынок WB сейчас убивает слабую юнит-экономику быстрее, чем плохую рекламу",
+      "column": "done",
+      "created": "2026-05-12",
+      "completed": "2026-05-12",
+      "notes": "workspace:content/2026-05-12-telegram-post-16-wb-market-now-punishes-weak-unit-economics-faster-than-bad-ads.md | obsidian-vault:Projects/maya-outputs/2026-05-12/telegram-post-16-wb-market-now-punishes-weak-unit-economics-faster-than-bad-ads-2026-05-12.md",
+      "type": "post",
+      "area": "wb"
     }
   ]
 }
