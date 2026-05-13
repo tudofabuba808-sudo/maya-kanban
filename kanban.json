@@ -734,6 +734,26 @@
       "notes": "workspace:content/2026-05-12-telegram-post-16-wb-market-now-punishes-weak-unit-economics-faster-than-bad-ads.md | obsidian-vault:Projects/maya-outputs/2026-05-12/telegram-post-16-wb-market-now-punishes-weak-unit-economics-faster-than-bad-ads-2026-05-12.md",
       "type": "post",
       "area": "wb"
+    },
+    {
+      "id": "task-075",
+      "title": "WB data freshness and anomalies report: API lag confirmed on 13.05.2026",
+      "column": "done",
+      "created": "2026-05-13",
+      "completed": "2026-05-13",
+      "notes": "workspace:reports/2026-05-13-wb-data-freshness-and-anomalies.md | obsidian-vault:Projects/maya-outputs/2026-05-13/result-wb-data-freshness-and-anomalies-2026-05-13.md",
+      "type": "report",
+      "area": "wb"
+    },
+    {
+      "id": "task-076",
+      "title": "Amazon LinkedIn post pack: 5 PPC mistakes post + CTA + first comment",
+      "column": "done",
+      "created": "2026-05-13",
+      "completed": "2026-05-13",
+      "notes": "obsidian-vault:Projects/maya-outputs/2026-05-13/result-amazon-linkedin-post-pack-2026-05-13.md",
+      "type": "post",
+      "area": "amazon"
     }
   ]
 }
