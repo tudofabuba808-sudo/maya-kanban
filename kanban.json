@@ -754,6 +754,26 @@
       "notes": "obsidian-vault:Projects/maya-outputs/2026-05-13/result-amazon-linkedin-post-pack-2026-05-13.md",
       "type": "post",
       "area": "amazon"
+    },
+    {
+      "id": "task-077",
+      "title": "LinkedIn post #17: The 7-point Amazon PPC audit I would run before touching bids",
+      "column": "done",
+      "created": "2026-05-14",
+      "completed": "2026-05-14",
+      "notes": "workspace:content/2026-05-14-linkedin-post-17-amazon-free-audit-checklist.md; obsidian-vault:Projects/maya-outputs/2026-05-14/2026-05-14-amazon-linkedin-post-17.md",
+      "type": "post",
+      "area": "amazon"
+    },
+    {
+      "id": "task-078",
+      "title": "Telegram post #17: Когда режут ДРР на плохих данных, а потом убивают рост",
+      "column": "done",
+      "created": "2026-05-14",
+      "completed": "2026-05-14",
+      "notes": "workspace:content/2026-05-14-telegram-post-17-wb-when-you-cut-drr-on-bad-data.md; obsidian-vault:Projects/maya-outputs/2026-05-14/2026-05-14-wb-telegram-post-17.md",
+      "type": "post",
+      "area": "wb"
     }
   ]
 }
